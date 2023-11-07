@@ -5,6 +5,7 @@ export interface MovieStructure {
   year: number;
   summary: string;
   actor: string;
+  picture: string;
 }
 
 export interface MoviesStateStructure {
