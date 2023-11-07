@@ -7,13 +7,13 @@ const MovieList = (): React.ReactElement => {
   });
 
   return (
-    <>
+    <ul>
       {movies.map((movie) => (
         <li key={movie.id}>
           <MovieCard movie={movie} />
         </li>
       ))}
-    </>
+    </ul>
   );
 };
 
