@@ -8,10 +8,10 @@ const HomePage = (): React.ReactElement => {
   const { getMovies } = useMoviesApi();
 
   useEffect(() => {
-    async () => {
+    (async () => {
       const currentMovies = await getMovies();
       dispatch(loadMoviesActionCreator(currentMovies));
-    };
+    })();
   }, [dispatch, getMovies]);
 
   return (
