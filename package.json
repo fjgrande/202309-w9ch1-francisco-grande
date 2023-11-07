@@ -13,6 +13,8 @@
     "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/user-event": "^14.5.1",
     "react": "^18.2.0",
