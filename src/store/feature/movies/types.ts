@@ -6,3 +6,7 @@ export interface MovieStructure {
   summary: string;
   actor: string;
 }
+
+export interface MoviesStateStructure {
+  movies: MovieStructure[];
+}
