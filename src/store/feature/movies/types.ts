@@ -6,6 +6,7 @@ export interface MovieStructure {
   summary: string;
   actor: string;
   picture: string;
+  isSeen: boolean;
 }
 
 export interface MoviesStateStructure {
