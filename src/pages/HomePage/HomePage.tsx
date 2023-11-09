@@ -18,7 +18,6 @@ const HomePage = (): React.ReactElement => {
 
   return (
     <HomePageStyled>
-      <h2 className="page-title">Gangster Movies List</h2>
       <main>
         <MovieList />
       </main>
