@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 const AppStyled = styled.main`
   display: flex;
-  text-align: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 20px;
 `;
 
